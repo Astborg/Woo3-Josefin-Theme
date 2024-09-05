@@ -1,0 +1,241 @@
+/*!
+Theme Name:   Josefin theme
+Author:       Josefin
+*/
+/* Styling for the overall page */
+body{
+    font-family: 'Arial', sans-serif;
+}
+body.page-template-fardiga-godispasar {
+    
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+
+li {
+    transition: transform 0.3s ease;
+    
+}
+
+li:hover {
+    transform: translateY(-5px);
+   
+}
+
+/* Form Styling */
+#filter-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#filter-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#filter-form input[type="text"],
+#filter-form input[type="date"],
+#filter-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#filter-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#filter-form button:hover {
+    background-color: #45a049;
+}
+
+/* List Styling */
+.menu a{
+    color: #333;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+li {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-decoration: underline;
+}
+
+li h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+}
+
+li div {
+    margin-bottom: 10px;
+}
+
+li .button {
+    background-color: #0073aa;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+li .button:hover {
+    background-color: #005177;
+}
+
+/* Category Styling */
+li .category {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#create-godispase-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#create-godispase-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#create-godispase-form input[type="text"],
+#create-godispase-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#create-godispase-form select[multiple] {
+    height: auto; /* Adjust height for multi-select */
+}
+
+#create-godispase-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#create-godispase-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Success and error messages */
+.success-message {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.product-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.product-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.product-item a.button {
+    background-color: #0073aa;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.product-item a.button:hover {
+    background-color: #005177;
+}
